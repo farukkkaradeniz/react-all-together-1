@@ -16,6 +16,8 @@ class App extends Component {
     }));
   };
 
+
+
   render() {
     return (
       <div className="App">
@@ -24,6 +26,7 @@ class App extends Component {
           <h1 className="App-title">ReactND - Coding Practice</h1>
         </header>
         <AddUser users={this.state.users} onAddUser={this.createContact} />
+        <button onClick={}> Show played games </button>
         <UserList users={this.state.users} />
       </div>
     );
